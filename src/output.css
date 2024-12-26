@@ -570,6 +570,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -616,6 +620,10 @@ video {
 
 .w-\[40\%\] {
   width: 40%;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-start {
@@ -770,4 +778,14 @@ video {
 .shadow-white {
   --tw-shadow-color: #fff;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[89\%\] {
+    width: 89%;
+  }
 }
