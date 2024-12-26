@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <nav class="w-[90%] m-auto justify-evenly  mt-5">
+    <nav class="w-[90%] m-auto justify-evenly  mt-5 lg:block hidden">
         <ul class="flex justify-around">
             <li>Сеть клиник Томской области</li>
             <li>Версия для слабовидящих</li>
@@ -19,25 +19,28 @@
     </nav>
     <nav class="w-[90%] m-auto justify-evenly  mt-5">
        
-        <ul class="flex justify-around w-[90%]  m-auto ">
+        <ul class="lg:flex justify-around w-[90%] hidden  m-auto ">
             <img src="./imgho/image 1 (1).png" alt="">
-            <li>Врачи</li>
-            <li>Услуги</li>
-            <li>Диагностика</li>
-            <li>Анализы</li>
-            <li>Акции</li>
-            <li>Пациентам</li>
-            <li>О клинике</li>
-            <li>Отзывы</li>
-            <li>Контакты</li>
-           
-        </ul>
+            <li class=" hidden">Врачи</li>
+            <li lass="lg:block hidden">Услуги</li>
+            <li lass="lg:block hidden">Диагностика</li>
+            <li lass="lg:block hidden">Анализы</li>
+            <li lass="lg:block hidden">Акции</li>
+            <li lass="lg:block hidden">Пациентам</li>
+            <li lass="lg:block hidden">О клинике</li>
+            <li lass="lg:block hidden">Отзывы</li>
+            <li lass="lg:block hidden">Контакты</li>
+            <p>_
+    
+
+            </p>
+          </ul>
         <span>Главная > Анализы</span>
     </nav>
-    <section class="w-[89%] w m-auto">
+    <section class="w-[89%] w m-auto mt-10">
         <h2 class="text-[40px] font-semibold">Анализы</h2>
-        <article class="lg:flex gap-8 block">
-            <div class="bg-[#3BB96D] rounded-xl flex w-[50%] py-10 px-[20px]">
+        <article class="lg:flex block gap-8 ">
+            <div class="bg-[#3BB96D] rounded-xl lg:flex lg:w-[50%] py-10 px-[20px] block  w-[100%] ">
 <div class="w-[50%]">
     <h1 class="text-[20px] font-semibold text-white">Скидка -20% на МРТ</h1>
     <br>
@@ -51,7 +54,7 @@
     <img class="w-[100%]" src="./imgho/image 4 (2).png" alt="">
 </div>
             </div>
-            <div class="bg-cyan-600 rounded-xl flex w-[50%] py-10 px-[20px]">
+            <div class="bg-cyan-600 rounded-xl lg:flex lg:w-[50%] py-10 px-[20px] block w-[100%]">
                 <div class="w-[50%]">
                     <h1 class="text-[20px] font-semibold text-white">Скидка -20% на МРТ</h1>
                     <br>
@@ -69,83 +72,44 @@
            
         </article>
     </section>
-    <section class="w-[90%] m-auto">
-        <h1 class="text-[50px] font-semibold" >Как получить лечение?</h1>
-        <article>
-            <aside> 
-               
-          <div class="flex  justify-between">
-            <h1 class="text-green-900 text-[40px] font-semibold">1</h1>
-            <h1 class="text-green-900 text-[50px] font-semibold">2</h1>
-            <h1 class="text-green-900 text-[50px] font-semibold">3</h1>
-          </div>
-           <aside class="flex justify-between items-start">
-            <div class="rounded-lg shadow-lg shadow-gray-900 w-[20%] py-2 px-10 relative top-[-30px]">
-                <img src="./imgho/Frame 153.png" alt="">
-                <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
-                </div>
-                <div class="rounded-lg shadow-lg shadow-gray-900 w-[20%] py-2 px-10 relative top-[-30px]">
-                    <img src="./imgho/Frame 153.png" alt="">
-                    <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
-                    </div>
-                    <div class="rounded-lg shadow-lg shadow-gray-900 w-[20%] py-2 px-10 relative top-[-30px]">
-                        <img src="./imgho/Frame 153.png" alt="">
-                        <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
-                        </div>
-           </aside>
-            </aside>
-           
-        </article>
-        <article>
-            <h1 class="text-[50px] font-semibold">Популярные анализы</h1>
-            <aside class="flex justify-between gap-2">
-                <div class="w-[30%] border-2 shadow-2xl shadow-white py-3 px-10 rounded-lg">
-                    <img src="./imgho/Group 1894.png" alt="">
-                    <br>
-                  
-                    <h1
-                    class="font-semibold text-green-800">Онкология</h1>
-                  <p>Гистология</p>
-              
-                  <p>Онкомаркёры</p>
-                  <p>Цитология</p>                    
-                </div>
-                <div class="w-[30%] border-2 shadow-2xl shadow-white py-3 px-10 rounded-lg">
-                    <img src="./imgho/Group 1894.png" alt="">
-                    <br>
-                  
-                    <h1
-                    class="font-semibold text-green-800">Биохимический анализ мочи</h1>
-                  <p>Общий анализ мочи</p>
-              Биохимия
-                  <p>Гормоны</p>
-                                  
-                </div>
-                <div class="w-[30%] border-2 shadow-2xl shadow-white py-3 px-10 rounded-lg">
-                    <img src="./imgho/Group 1894.png" alt="">
-                    <br>
-                  
-                    <h1
-                    class="font-semibold text-green-800">Онкология</h1>
-                  <p>Биохимический анализ мочи</p>
-              
-                  <p>Общий анализ мочи</p>
-                  <p>Гормоны</p>                    
-                </div>
-                <div class="w-[20%] border-2 shadow-2xl shadow-white py-3 px-10 rounded-lg">
-                    <img src="./imgho/Group 1894.png" alt="">
-                    <br>
-                  
-                    <h1
-                    class="font-semibold text-green-800">Онкология</h1>
-                  <p>Аллергокомпоненты</p>
-              
-                  <p>Индивидуальные аллергены</p>
-                  <p>Аллергия на лекарства</p>                    
-                </div>
-            </aside>
-        </article>
+    <section class="w-[90%] m-auto mt-10">
+<h1 class="text-[40px] font-semibold">Как получить лечение?</h1>
+
+<article class="lg:flex justify-between block">
+    <div class="der">
+        <div>
+            <h1 class="text-green-900 text-[90px] font-mono">1</h1>
+            
+        </div>
+        <div class="lg:w-[80%] shadow-2xl shadow-gray-400 py-4 px-6 rounded-lg relative -top-16 w-[100%]">
+            <img src="./imgho/Frame 153.png" alt="">
+            <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
+         </div>
+    </div>
+    <div class="der">
+        <div>
+            <h1 class="text-green-900 text-[90px] font-mono">2</h1>
+            
+        </div>
+        <div class="lg:w-[80%] shadow-2xl shadow-gray-400 py-4 px-6 rounded-lg relative -top-16 w-[100%]">
+            <img src="./imgho/Frame 153.png" alt="">
+            <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
+         </div>
+    </div>
+    <div class="der">
+        <div>
+            <h1 class="text-green-900 text-[90px] font-mono">3</h1>
+            
+        </div>
+        <div class="lg:w-[80%] shadow-2xl shadow-gray-400 py-4 px-6 rounded-lg relative -top-16 w-[100%]">
+            <img src="./imgho/Frame 153.png" alt="">
+            <p>Узнайте, входит ли интересующее вас лечение в программу для вашего региона</p>
+         </div>
+    </div>
+</article>
     </section>
+    
+ 
   </header>
   </h1>
 </body>
