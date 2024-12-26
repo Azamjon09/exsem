@@ -638,6 +638,26 @@ video {
   width: 5rem;
 }
 
+.w-\[0\%\] {
+  width: 0%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[8\%\] {
+  width: 8%;
+}
+
+.w-\[88\%\] {
+  width: 88%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
 .flex-grow {
   flex-grow: 1;
 }
@@ -668,6 +688,10 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .rounded-2xl {
@@ -724,6 +748,15 @@ video {
   background-color: rgb(28 25 23 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-green-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 101 52 / var(--tw-bg-opacity, 1));
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -777,6 +810,31 @@ video {
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-\[3\] {
+  padding-left: 3;
+  padding-right: 3;
+}
+
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[50px\] {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.px-\[90px\] {
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .font-mono {
@@ -873,6 +931,10 @@ video {
 
   .lg\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .lg\:w-\[86\%\] {
+    width: 86%;
   }
 
   .lg\:px-\[90px\] {
