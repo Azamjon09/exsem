@@ -791,6 +791,14 @@ video {
   gap: 84px;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
 .rounded-2xl {
   border-radius: 1rem;
 }
@@ -1232,6 +1240,14 @@ video {
 
   .lg\:w-\[33\%\] {
     width: 33%;
+  }
+
+  .lg\:w-\[0\%\] {
+    width: 0%;
+  }
+
+  .lg\:w-\[40\%\] {
+    width: 40%;
   }
 
   .lg\:flex-row {
